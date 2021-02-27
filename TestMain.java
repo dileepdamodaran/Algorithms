@@ -18,5 +18,9 @@ public class TestMain {
 
         tree.root.left = new TreeNode(2);
         tree.root.right = new TreeNode(3);
+
+        int sum = 17;
+        System.out.println(sum % 10);
+        System.out.println(7 / 10);
     }
 }

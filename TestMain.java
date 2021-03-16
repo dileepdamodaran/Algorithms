@@ -22,5 +22,6 @@ public class TestMain {
         int sum = 17;
         System.out.println(sum % 10);
         System.out.println(7 / 10);
+
     }
 }

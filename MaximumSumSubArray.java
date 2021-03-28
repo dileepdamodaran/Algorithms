@@ -18,9 +18,7 @@ public class MaximumSumSubArray {
         int windowSum = 0;
         int windowStart = 0;
         int maxSum = 0;
-        // add sum if i <k
-        // if i>k add sum only if current sum > previous sum
-        // if sum is greater replace first with the recent one
+
         for (int i = 0; i < arr.length; i++) {
             windowSum += arr[i];
             if (i >= k - 1) {

@@ -15,7 +15,7 @@ public class SmallesSubArrayGivenSum {
     }
 
     private static int findSmallestSubArray(int[] arr, int target) {
-        int windowSum = 0, minLength = 0;
+        int windowSum = 0, minLength = Integer.MAX_VALUE;
         int windowStart = 0;
         // int arr[] = new int[] { 2, 1, 5, 2, 8 };
 
@@ -27,6 +27,7 @@ public class SmallesSubArrayGivenSum {
                 windowStart++;
             }
         }
+        System.out.println(minLength);
         return minLength == Integer.MAX_VALUE ? 0 : minLength;
     }
 }

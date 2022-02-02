@@ -1,3 +1,5 @@
+package algoexpert;
+
 public class Node {
 
     int key;
